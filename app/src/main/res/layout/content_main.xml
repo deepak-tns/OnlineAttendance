@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <LinearLayout
+         android:id="@+id/linear_att_anywhere"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:layout_gravity="center"
+         android:orientation="vertical"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content">
+
+         <ImageView
+             android:tint="@color/sky"
+             android:src="@drawable/house"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              />
+
+         <TextView
+             android:textSize="10sp"
+             android:textStyle="bold"
+             android:typeface="monospace"
+             android:textColor="@color/sky"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Attendance \nAnywhere"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/linear_att_fix"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:layout_gravity="center"
+         android:orientation="vertical"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content">
+
+         <ImageView
+             android:tint="@color/sky"
+             android:src="@drawable/house"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+
+         <TextView
+             android:textSize="10sp"
+             android:textStyle="bold"
+             android:typeface="monospace"
+             android:textColor="@color/sky"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Attendance \nFixLocation"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+
+ </LinearLayout>
+
+
+
+</LinearLayout>

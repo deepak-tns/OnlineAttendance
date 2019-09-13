@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OnlineAttendance</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hintloginid">LoginID</string>
+    <string name="hintloginpassword">Password</string>
+    <string name="forgetpassword">Forget Password ?</string>
+    <string name="btnlogin">Login</string>
+
+    <string name="alert_message_no_network">Network not available please try again </string>
+    <string name="alert_ok_button_text_no_network">ok</string>
+    <string name="alert_cancel_button_text_no_network">cancel</string>
+    <string name="labelOk">Ok</string>
+    <string name="labelCancel">Cancel</string>
+
+    <string name="error_phone_no_invalid">Please provide 10 digit mobile number</string>
+    <string name="error_additional_zero">Please provide number without zero</string>
+    <string name="error_empty_email_id">Please provide  email id</string>
+    <string name="error_invalid_email_id">Please provide valid email id</string>
+    <string name="error_password_empty">Please enter password</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_all">AllActivity</string>
+
+</resources>
